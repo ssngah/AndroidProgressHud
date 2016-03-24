@@ -4,23 +4,26 @@
     android:layout_height="wrap_content"
     android:layout_gravity="center"
     android:background="@drawable/progress_hud_bg"
-    android:gravity="center_horizontal"
+    android:gravity="center"
     android:orientation="vertical"
     android:paddingTop="10dp"
     android:paddingBottom="10dp"
+
     >
 
-    <ImageView
-        android:id="@+id/spinnerImageView"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:scaleType="centerInside"/>
+    <!--<ImageView-->
+        <!--android:id="@+id/spinnerImageView"-->
+        <!--android:layout_width="80dp"-->
+        <!--android:layout_height="80dp"-->
+        <!--android:scaleType="centerInside"-->
+        <!--android:background="@android:color/holo_red_dark"/>-->
 
     <ImageView 
         android:id="@+id/statusImageView"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:scaleType="centerInside"/>
+        android:scaleType="centerInside"
+        />
     
     <TextView
         android:id="@+id/message"
@@ -30,7 +33,7 @@
         android:paddingRight="10dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Message"
-        android:textColor="#FFFFFF" />
+        android:textColor="#FFFFFF"
+        />
 
 </LinearLayout>

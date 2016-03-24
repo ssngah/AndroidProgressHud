@@ -10,8 +10,44 @@
     android:paddingTop = "@dimen/activity_vertical_margin"
     tools:context = "com.huxi.progresshud.MainActivity">
 
-    <TextView
+    <Button
         android:layout_width = "wrap_content"
         android:layout_height = "wrap_content"
-        android:text = "Hello World!"/>
+        android:text="show success"
+        android:onClick="onShowSuccessClick"
+        android:id = "@+id/button2"/>
+
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "show error"
+        android:id = "@+id/button"
+        android:layout_below = "@+id/button2"
+        android:onClick="onShowErrorClick"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+       />
+
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "showDefaultProgress"
+        android:id = "@+id/button3"
+        android:layout_below = "@+id/button"
+        android:onClick="onShowDefaultProgressClick"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"/>
+
+    <Button
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:text = "show custom progress animation"
+        android:id = "@+id/button4"
+        android:layout_below = "@+id/button3"
+        android:layout_alignParentLeft = "true"
+        android:layout_alignParentStart = "true"
+        android:layout_marginTop = "34dp"
+        android:onClick = "onShowCustomAnimation"/>
+
+
 </RelativeLayout>
