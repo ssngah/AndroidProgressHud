@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PasswordEditor">
+        <attr name="input_count"  format="integer"/>
+        <!-- input type for edittext -->
+        <attr name = "input_type" format="integer"/>
+        <attr name="edit_field_square" format="boolean" />
+    </declare-styleable>
+    <!--<declare-styleable name="LetterListView">-->
+        <!--<attr name="divider_height"  format="dimension|reference"/>-->
+        <!--&lt;!&ndash; input type for edittext &ndash;&gt;-->
+        <!--<attr name = "content_divider" format="reference"/>-->
+       <!-- -->
+    <!--</declare-styleable>-->
+
+    <declare-styleable name="LockPatternView">
+        <!-- Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height" -->
+        <attr name="aspect" format="string" />
+        <attr name="lineColor" format="color"/>
+        <attr name="btnNormalDrawable" format="reference" />
+        <attr name="btnSelectedDrawable" format = "reference"/>
+        <!-- if the use input is wrong ,the cell will show with this drawable 
+           this property will only valid when you create the view with a patten -->
+        <attr name="wrongStateDrawable"  format = "reference"/>
+        <attr name="isNeedArrow"  format="boolean" />
+        <!-- default is true -->
+        <attr name="isAutoClear"  format = "boolean" />
+        <!-- default is false -->
+        <attr name="inputFeedBackEnable" format = "boolean" />
+    </declare-styleable>
+    <declare-styleable name="ImageViewPager">
+        <attr name="flipIntervalN" format="integer" />
+        <attr name="pageMarginN" format="integer" />
+        <attr name="isNeedIndicatorN" format="boolean" />
+        <attr name="isNeedDetectGestrueN" format = "boolean" />
+        <attr name="isCirculatedN" format="boolean"/>
+        <attr name="indicatorBarBgN" format="color"/>
+        <attr name="ratio" format="float"/>
+    </declare-styleable>
+    
+</resources>
