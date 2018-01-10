@@ -93,7 +93,6 @@ public class ProgressDialog extends Dialog {
         int size = context.getResources().getDimensionPixelSize(R.dimen.progress_hud_size);
         lp.dimAmount = 0.2f;
         lp.width = size;
-        lp.height = size;
         dialog.getWindow().setAttributes(lp);
         dialog.show();
         return dialog;
